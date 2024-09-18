@@ -1,0 +1,9 @@
+ library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ISPPs54/Ui/main/uii"))()
+
+local Window = library:AddWindow("iyoulin", {
+    main_color = Color3.fromRGB(200, 0, 0),
+    min_size = Vector2.new(550, 450),
+    toggle_key = Enum.KeyCode.RightShift,
+    can_resize = true,
+})
+local Farm = Window:AddTab("主页")
